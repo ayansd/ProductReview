@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 // Used for the session purpose
 const App = () => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch() 
 
   useEffect(() => {
     const expirationTime = localStorage.getItem('expirationTime');
